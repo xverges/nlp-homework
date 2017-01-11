@@ -54,3 +54,42 @@ From stackoverflow's [NLTK and language detection](http://stackoverflow.com/ques
 
 Some dummy tests, and my first commit!
 
+## Let's bring in `langid`
+
+```
+>pip install langid
+>pip freeze > requirements.txt
+>less requirements.txt
+colorama==0.3.3
+decorator==4.0.9
+httpie==0.9.2
+ipython==4.1.1
+ipython-genutils==0.1.0
+keyring==5.3
+langid==1.1.6
+numpy==1.11.3
+path.py==8.1.2
+pickleshare==0.6
+PyAudio==0.2.9
+Pygments==2.0.2
+pyreadline==2.1
+requests==2.9.1
+simplegeneric==0.8.1
+SpeechRecognition==3.3.0
+traitlets==4.1.0
+```
+
+Wow! PyAudio? SpeechRecognition?
+
+But I can write actual code!
+
+## Argh! 
+
+* My first Spanish sentence has been identified as Italian. Not nice.
+* When I try to add a 'ñ', so that it si super obvious that this is Spanish,
+  Python gets upset.
+
+## Two working tests!
+
+After adding a comment in the first lines specifying UTF-8 encoding,
+I have two working tests. Time for my second happy commit.
