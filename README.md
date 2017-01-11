@@ -11,7 +11,7 @@ bringing back some of my long-forgotten Python fluency.
 I am a believer on TDD/BDD. And the problem at hand calls for some kind of
 data driven tests. Some googling on Python Data Driven Tests 
 (<http://defragdev.com/blog/?p=660>) reminds me that I used to like nose,
-even if I know nothing about it nowadats.  Looks like nose is too old, and
+even if I know nothing about it nowadays.  Looks like nose is too old, and
 that I should be using
 [nose2](https://nose2.readthedocs.io/en/latest/getting_started.html).
 But, wait, <https://github.com/wolever/nose-parameterized>, does not rely
@@ -24,7 +24,7 @@ to specify my project dependencies! How is this done nowadays in Python?
 
 [pip FTW!](http://stackoverflow.com/a/31753111/239408)
 
-## Projecte sctructure + interface
+## Project structure + interface
 
 I don't want to look messy, so some googling again.
 [What is the best project structure for a Python application?](http://stackoverflow.com/a/3419951/239408)
@@ -86,10 +86,19 @@ But I can write actual code!
 ## Argh! 
 
 * My first Spanish sentence has been identified as Italian. Not nice.
-* When I try to add a 'ñ', so that it si super obvious that this is Spanish,
+* When I try to add a 'ñ', so that it is super obvious that this is Spanish,
   Python gets upset.
 
 ## Two working tests!
 
 After adding a comment in the first lines specifying UTF-8 encoding,
 I have two working tests. Time for my second happy commit.
+
+## Let's try data-driven-tests
+
+Just a taste of how `nose_parameterized` works.
+
+Watson is missing, my googling about project structure and thinking about
+a facade to hide the different APIs was probably YAGNI, but it looks like
+my third commit will be of a "minimum viable homework"!
+
